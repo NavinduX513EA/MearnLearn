@@ -1,0 +1,24 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Home from './Components/Home/Home.jsx'
+import Employee from './Pages/Employee.jsx';
+import Employees from './Pages/Employees.jsx';
+import { Route, Routes } from 'react-router-dom';
+import AddEmployee from './Pages/AddEmployee.jsx';
+
+function App() {
+ 
+   //js codes
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add-employee" element={<AddEmployee />} />
+        <Route path="/employee-details" element={<Employees />} />
+      </Routes>
+    </div>
+  )
+}
+
+export default App
