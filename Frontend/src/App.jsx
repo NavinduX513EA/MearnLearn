@@ -7,6 +7,8 @@ import Employees from './Pages/Employees.jsx';
 import { Route, Routes } from 'react-router-dom';
 import AddEmployee from './Pages/AddEmployee.jsx';
 import UpdateEmployee from './Pages/UpdateEmployee.jsx';
+import Register from './Pages/Register.jsx';  
+import Login from './Pages/Login.jsx';
 
 function App() {
  
@@ -18,6 +20,8 @@ function App() {
         <Route path="/add-employee" element={<AddEmployee />} />
         <Route path="/employee-details" element={<Employees />} />
         <Route path="/employee-details/:id" element={<UpdateEmployee />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   )

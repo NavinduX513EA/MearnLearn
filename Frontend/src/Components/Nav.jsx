@@ -17,6 +17,13 @@ function Nav() {
             <a href="/employee-details" style={{ color: 'white', textDecoration: 'none' }}>
                 Employee Details
             </a>
+            <a href="/login" style={{ color: 'white', textDecoration: 'none' }}>
+                Login
+            </a>
+            <a href="/register" style={{ color: 'white', textDecoration: 'none', marginLeft: 'auto' }}>
+                Register
+            </a>
+
         </nav>
     )
 }

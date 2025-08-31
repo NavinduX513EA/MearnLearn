@@ -18,8 +18,8 @@ function Employee(props) {
         
         <p>Name: {name}</p>
         <p>Age: {age}</p>
-        <p>Email: {gmail}
-        <Link to={`/employee-details/${_id}`}>
+        <p>Email: {gmail}<br/><br/>
+        <Link to={`/employee-details/${_id}`}style={{ marginRight: "10px" }}>
           Edit
         </Link>
         <button onClick={DeleteHandler}>Delete</button>
